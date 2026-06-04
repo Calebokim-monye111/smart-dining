@@ -139,10 +139,10 @@ export default async function DashboardLanding() {
           <Home size={22} strokeWidth={2.5} />
           <span className="text-[10px] font-bold">Home</span>
         </Link>
-        <Link href="/orders" className="flex flex-col items-center gap-1 text-gray-400 hover:text-gray-900">
-          <ShoppingBag size={22} />
-          <span className="text-[10px] font-semibold">Orders</span>
-        </Link>
+      <Link href="/orders/history" className="flex flex-col items-center gap-1.5 text-gray-400 hover:text-gray-900 transition-colors">
+  <ShoppingBag size={24} />
+  <span className="text-[10px] font-semibold">Orders</span>
+</Link>s
         <Link href="/chat" className="flex flex-col items-center gap-1 text-gray-400 hover:text-gray-900">
           <MessageSquare size={22} />
           <span className="text-[10px] font-semibold">Chat</span>
